@@ -1,0 +1,10 @@
+body {
+  background-color: #fdfdfd;
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+/*# sourceMappingURL=global.css.map */
