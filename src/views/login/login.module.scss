@@ -1,0 +1,39 @@
+.loginPage{
+  width: 100vw;
+  height: 100vh;
+  background-color: #161921;
+
+  .loginBox{
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+
+    h1{
+      font-weight: bold;
+      font-size: 22px;
+      text-align: center;
+      color: #fdfdfd;
+    }
+
+    .title{
+      margin-bottom: 40px;
+      position: relative;
+      &:before, &:after{
+        content: "";
+        width: 100px;
+        height: 2px;
+        position: absolute;
+        left:-20px;
+        top:12px;
+        background:linear-gradient(to right, rgba(255,255,255,0), #4343e1);
+      }
+      &:after{
+        left: auto;
+        right: -20px;
+        background:linear-gradient(to left, rgba(255,255,255,0), #4343e1);
+      }
+    }
+  }
+}

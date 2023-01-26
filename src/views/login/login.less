@@ -1,0 +1,41 @@
+
+.ant-input, .ant-input-password {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #1890ff;
+  color: #fff;
+
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #1890ff;
+    opacity: 0.5; /* Firefox */
+  }
+
+  .ant-input-password-icon.anticon {
+    color: #1890ff;
+
+    &:hover {
+      color: #1890ff;
+    }
+  }
+}
+
+.captchaBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .ant-input {
+    width: 65%;
+  }
+
+  .captchaImg {
+    width: 30%;
+  }
+
+  img {
+    width: 100%;
+    height: 33px;
+    cursor: pointer;
+  }
+}
